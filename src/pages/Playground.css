@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playgroundContainer{
+height: 500px;
+background-image: url("https://media.istockphoto.com/id/1489403290/photo/close-up-of-a-software-developer-working-on-a-desktop-computer-with-green-screen-mock-up.jpg?s=1024x1024&w=is&k=20&c=u-2UM-NSj5OhKTpinL3vc4dipidYmZFGMW4k00YVcB4=");
+border: 1px solid red;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.slide_pannel{
+  position: absolute;
+  top: 56%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  margin-left: 100px;
+  padding-left:15px ;
+  color: #ffffff;
+  border-left: 5px solid rgb(214, 20, 20);
+  border-image: linear-gradient(to bottom, #feb65c 0%, #de42ba 100%);
+  border-image-slice: 1;
+/* 
+  position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    padding: 20px;
+    max-width: 56%;
+    margin: 0 auto;
+    text-align: left;
+    border-left: 4px solid transparent;
+    border-image: linear-gradient(to bottom, #feb65c 0%, #de42ba 100%);
+    border-image-slice: 1; */
+  
+}
+
+.headingSmall{
+  padding-top: 12px;
+  font-size: 25px;
+  font-family: "Oswald";
+  letter-spacing: 6px;
+  list-style-type: circle;
+}
+.headingLarge{
+  font-family: "Oswald";
+  letter-spacing: 3px;
+  font-size:40px;
+  
+}
+.propDesc {
+ width: 40%;
+  margin-top: 15px;
+}
+
+.btn{
+  gap: 2rem;
+}
+
+/* .btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #555;
+} */
